@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Business website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+  <!-- <div id=""> initial values:</div > -->
+
+    <input type="checkbox" id="notificationcheckbox"  hidden >
+   <a href="#" onclick="setNotification()"> <button >search</button></a>  <a href="#" onclick="setNotification2()"> <button >reset</button></a>
+
+
+<div id="notifcontainer" hidden>
+
+      <p>Honda = CR-V  (Gas = 45)</p>
+      <p>Ford=F-150  (Gas = 30)</p>
+      <p>BMW=X5   (Gas = 65)</p>
+      <p>Mazda=CX-5  (Gas = 60)</p>
+      <p>Audi=Q7 (Gas = 47)</p>
+      <p>Kia=Forte  (Gas = 56)</p>
+    </div>
+
+<br>
+<br>
+
+  <div id="honkcar0" hidden>
+    <p id="honkcar1"></p>
+    <p id="honkcar2"></p>
+    <p id="honkcar3"></p>
+    <p id="honkcar4"></p>
+    <p id="honkcar5"></p>
+    <p id="honkcar6"></p>
+    <p id="honkcar7"></p>
+  </div>
+
+     <div id="car0" hidden>
+   <p id="car1"></p>
+   <p id="car2"></p>
+   <p id="car3"></p>
+   <p id="car4"></p>
+   <p id="car5"></p>
+   <p id="car6"></p>
+   <p id="car7"></p>
+<br>
+
+<p id="raceResult0"></p>  <br>
+<p id="raceResult"></p>   
+<p id="raceResult2"></p>
+
+  </div>
+
+
+
+  <div id="notifcontainer2" hidden><a href="#" onclick="HonkCars()"> <button >Honk Cars</button></a> 
+     <a href="#" onclick="runRace()" id="startbtn"> <button >Start Race</button></a></div>
+
+   </body>
+   <script src="./carpump.js">
+    </script>
+</html>
